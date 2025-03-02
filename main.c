@@ -7,7 +7,7 @@ int main(void) {
 
   while (1) {
     PORTB ^= (1 << PB5);
-    _delay_ms(500);
+    _delay_ms(100);
   }
 
   return 0;
